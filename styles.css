@@ -658,22 +658,22 @@ body {
     
     .floating-element-1,
     .floating-element-2 {
-        top: 1rem;
+        top: 2rem;
     }
     
     .floating-element-1,
     .floating-element-3 {
-        left: 1rem;
+        left: 2rem;
     }
     
     .floating-element-2,
     .floating-element-4 {
-        right: 1rem;
+        right: 2rem;
     }
     
     .floating-element-3,
     .floating-element-4 {
-        bottom: 1rem;
+        bottom: 2rem;
     }
     
     .gift-card-inner {
@@ -689,7 +689,7 @@ body {
     .floating-element {
         width: 4rem;
         height: 4rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     .gift-card-icons {
