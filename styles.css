@@ -19,7 +19,7 @@ body {
 /* Hero Section */
 .hero-section {
     position: relative;
-    min-height: 100vh;
+    min-height: 100dvh;
     width: 100vw;
     overflow: hidden;
     display: flex;
@@ -202,8 +202,8 @@ body {
     position: absolute;
     width: 6rem;
     height: 6rem;
-    border-radius: 1.5rem;
-    font-size: 40px;
+    border-radius: 20px;
+    font-size: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
