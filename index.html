@@ -1,27 +1,99 @@
 
 <!DOCTYPE html>
 <html lang="en" class="overflow-hidden">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday</title>
-    <meta name="description" content="A Special Birthday Surprise" />
-    <meta name="author" content="Lovable" />
-
+    <meta name="description" content="A Special Birthday Surprise">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="overflow-hidden">
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <!-- Background Video -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="https://res.cloudinary.com/anubhav1602/video/upload/v1750880023/g81ygrvfr9cjf4gydbg0.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Gradient Overlay -->
+        <div class="hero-overlay"></div>
+        
+        <!-- Main Content -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Happy Birthday</h1>
+                <p class="hero-subtitle">Today marks the beginning of another beautiful chapter in your extraordinary story</p>
+            </div>
+        </div>
 
-    <meta property="og:title" content="Happy Birthday" />
-    <meta property="og:description" content="A Special Birthday Surprise" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+        <!-- Decorative Right Side -->
+        <div class="hero-decorative">
+            <span class="hero-vertical-text">BIRTHDAY CHAPTER ONE</span>
+        </div>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+        <!-- Footer Label -->
+        <div class="hero-footer-left">
+            <p>✦ Founded in Stillness, 2025</p>
+        </div>
 
-  <body class="overflow-hidden">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+        <!-- Copyright -->
+        <div class="hero-footer-right">
+            <p>© Luna</p>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span>SCROLL</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Rome Section -->
+    <section id="rome" class="rome-section">
+        <!-- Floating Corner Elements -->
+        <div class="floating-element floating-element-1">
+            <div class="gift-icon">🎁</div>
+        </div>
+        <div class="floating-element floating-element-2">
+            <div class="plane-icon">✈️</div>
+        </div>
+        <div class="floating-element floating-element-3">
+            <div class="plane-icon">✈️</div>
+        </div>
+        <div class="floating-element floating-element-4">
+            <div class="gift-icon">🎁</div>
+        </div>
+
+        <div class="rome-content">
+            <!-- Main Heading -->
+            <div class="rome-heading">
+                <h2>We are going to<br>Rome, Italy! 🇮🇹</h2>
+            </div>
+
+            <!-- Subheading -->
+            <div class="rome-subheading">
+                <p class="rome-subtitle">Your flight tickets and luxury accommodation are my gift to you! ✈️🎁</p>
+                <p class="rome-love-text">Pack your bags, my love - adventure awaits! ❤️</p>
+            </div>
+
+            <!-- Central Gift Card -->
+            <div class="gift-card">
+                <div class="gift-card-inner">
+                    <div class="gift-card-icons">
+                        <div class="gift-card-icon gift-card-icon-1">🎁</div>
+                        <div class="gift-card-icon gift-card-icon-2">✈️</div>
+                    </div>
+                    <div class="gift-card-text">
+                        <p class="gift-card-surprise">✨ SURPRISE! ✨</p>
+                        <p class="gift-card-covered">All expenses covered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>
