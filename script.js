@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Enhanced gift card interaction
-    const giftCard = document.querySelector('.gift-card');
+    const giftCard = document.querySelector('.surprise');
     if (giftCard) {
         giftCard.addEventListener('click', function() {
             // Add click animation
